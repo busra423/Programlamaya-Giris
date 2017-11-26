@@ -1,0 +1,47 @@
+//Daha kısa bir çözümü olmalı.
+
+import java.util.Scanner;
+
+public class YEDİ {
+	public static void main(String[] args) {
+		/* Klavyeden 3 sayı okuyarak bu sayılardan en büyüğünü veya en küçüğünü ekrana yazan kodu yazınız.*/
+
+	System.out.println("BİRİNCİ SAYIYI GİRİNİZ: ");
+	Scanner s = new Scanner(System.in);
+	int x = s.nextInt();
+	
+	System.out.println("İKİNCİ SAYIYI GİRİNİZ: ");
+	int y = s.nextInt();
+	
+	System.out.println("ÜÇÜNCÜ SAYIYI GİRİNİZ: ");
+	int z = s.nextInt();
+	
+	if(x<y&&x<z) {
+		System.out.println(x +" en küçük sayıdır");
+
+}
+	if(y<x&&y<z) {
+		System.out.println(y+ " en küçük sayıdır.");
+
+}
+	if(z<y&&z<x) {
+		System.out.println(z+ " en küçük sayıdır." );
+
+}
+	
+	if(x>y&&x>z) {
+		System.out.println(x +" en büyük sayıdır");
+
+}
+	if(y>x&&y>z) {
+		System.out.println(y+ " en büyük sayıdır.");
+
+}
+	if(z>y&&z>x) {
+		System.out.println(z+ " en büyük sayıdır." );
+
+}
+	
+	
+	}
+	   }
